@@ -8,13 +8,13 @@
 You can install this package using npm:
 
 ```bash
-npm install react-fb-image-grid
+npm install @uydev/react-fb-image-grid
 ```
 
 or with yarn:
 
 ```bash
-yarn add react-fb-image-grid
+yarn add @uydev/react-fb-image-grid
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ yarn add react-fb-image-grid
 First, import the component in your React application:
 
 ```tsx
-import { ReactFbImageGrid } from 'react-fb-image-grid';
+import { ReactFbImageGrid } from '@uydev/react-fb-image-grid';
 ```
 
 Then, you can use the component by passing an array of image URLs as a prop:
@@ -62,7 +62,7 @@ Here's how the component works with different numbers of images:
 
 ```tsx
 import React from 'react';
-import { ReactFbImageGrid } from 'react-fb-image-grid';
+import { ReactFbImageGrid } from '@uydev/react-fb-image-grid';
 
 const images = [
   'https://example.com/image1.jpg',
@@ -97,7 +97,7 @@ The layout dynamically adapts based on the number of images:
 You can add custom styling to the grid by passing the `className` prop:
 
 ```tsx
-<ReactFbImageGrid images={images} className="my-custom-grid" />
+<ReactFbImageGrid images={images} className="my-custom-container" />
 ```
 
 You can further customize the styles of the images or the grid layout using CSS.
@@ -107,7 +107,7 @@ You can further customize the styles of the images or the grid layout using CSS.
 To develop this package locally, clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/your-username/react-fb-image-grid
+git clone https://github.com/UyLeQuoc/react-fb-image-grid
 cd react-fb-image-grid
 npm install
 ```
