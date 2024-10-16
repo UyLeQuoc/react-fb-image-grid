@@ -1,14 +1,16 @@
 {
   "name": "@uydev/react-fb-image-grid",
-  "version": "0.4.2",
+  "version": "0.4.5",
   "type": "module",
   "main": "dist/index.umd.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
   "exports": {
-    ".": {
+  ".": {
       "import": "./dist/index.es.js",
-      "require": "./dist/index.umd.js"
+      "require": "./dist/index.umd.js",
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.es.js"
     }
   },
   "files": [

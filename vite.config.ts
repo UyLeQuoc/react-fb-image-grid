@@ -5,7 +5,10 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), dts()],
+  plugins: [react(), dts({
+    rollupTypes: true,
+    tsconfigPath: "./tsconfig.app.json",
+  }),],
   build: {
     lib: {
       entry: path.resolve(__dirname, "index.ts"),

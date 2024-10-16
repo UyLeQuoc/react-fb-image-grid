@@ -20,6 +20,8 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
 
+    "noImplicitAny": false,
+
     "declaration": true,
     "typeRoots": ["./dist/index.d.ts", "node_modules/@types"],
   },
