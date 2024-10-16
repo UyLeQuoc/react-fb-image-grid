@@ -9,7 +9,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, "index.ts"),
-      name: "ViteButton",
+      name: "@uydev/react-fb-image-grid",
       fileName: (format) => `index.${format}.js`,
     },
     rollupOptions: {

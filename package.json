@@ -1,6 +1,6 @@
 {
   "name": "@uydev/react-fb-image-grid",
-  "version": "0.3.0",
+  "version": "0.4.2",
   "type": "module",
   "main": "dist/index.umd.js",
   "module": "dist/index.es.js",
@@ -12,7 +12,7 @@
     }
   },
   "files": [
-    "dist"
+    "/dist"
   ],
   "publishConfig": {
     "access": "public"

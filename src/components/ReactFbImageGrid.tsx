@@ -1,7 +1,7 @@
 import { ClassValue } from "clsx"
 import { cn } from "../lib/utils"
 
-interface ReactFbImageGridProps {
+export interface ReactFbImageGridProps {
   images: string[]
   className?: ClassValue
 }
